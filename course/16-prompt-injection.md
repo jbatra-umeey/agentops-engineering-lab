@@ -8,7 +8,7 @@ Explain the concept, implement its control boundary, identify its failure mode, 
 
 Prompt injection attempts to turn untrusted content into commands. In the reference incident-response workflow, the operational question is not only whether the agent can produce a diagnosis, but whether the system can prove which evidence and permissions led to that diagnosis. Mark untrusted sources and block privileged instruction promotion.
 
-## Original workflow diagram
+## Workflow diagram
 
 ```mermaid
 flowchart LR

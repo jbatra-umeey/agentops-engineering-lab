@@ -8,7 +8,7 @@ Explain the concept, implement its control boundary, identify its failure mode, 
 
 MCP standardizes exposure of tools and resources to AI clients. In the reference incident-response workflow, the operational question is not only whether the agent can produce a diagnosis, but whether the system can prove which evidence and permissions led to that diagnosis. Treat every MCP server as a trust boundary.
 
-## Original workflow diagram
+## Workflow diagram
 
 ```mermaid
 flowchart LR

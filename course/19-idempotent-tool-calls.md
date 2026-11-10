@@ -8,7 +8,7 @@ Explain the concept, implement its control boundary, identify its failure mode, 
 
 Idempotency ensures replay does not duplicate effects. In the reference incident-response workflow, the operational question is not only whether the agent can produce a diagnosis, but whether the system can prove which evidence and permissions led to that diagnosis. Persist request identity and outcome atomically.
 
-## Original workflow diagram
+## Workflow diagram
 
 ```mermaid
 flowchart LR
@@ -55,7 +55,7 @@ A passing automated negative test, a documented decision, a revised sequence dia
 ### Sequence of events
 
 1. **Trigger:** A request or event is recorded with a stable incident identifier and trace context.
-2. **Decision and execution:** Compute an idempotency key from incident, action and approved revision; atomically reserve it; return the original result for duplicate deliveries.
+2. **Decision and execution:** Compute an idempotency key from incident, action and approved revision; atomically reserve it; return the stored result for duplicate deliveries.
 3. **Verification:** Compare each returned observation with the requested schema, evidence provenance, and policy constraints.
 4. **Exit:** Record the resulting state, trace, and an explicit outcome: success, partial result, denied, or escalated.
 

@@ -8,7 +8,7 @@ Explain the concept, implement its control boundary, identify its failure mode, 
 
 Context is a scarce budget, not a complete data dump. In the reference incident-response workflow, the operational question is not only whether the agent can produce a diagnosis, but whether the system can prove which evidence and permissions led to that diagnosis. Summarize with citations and retain decisive evidence.
 
-## Original workflow diagram
+## Workflow diagram
 
 ```mermaid
 flowchart LR

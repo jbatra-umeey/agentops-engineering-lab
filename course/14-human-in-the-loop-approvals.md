@@ -8,7 +8,7 @@ Explain the concept, implement its control boundary, identify its failure mode, 
 
 Human approval is a state transition, not a UI confirmation alone. In the reference incident-response workflow, the operational question is not only whether the agent can produce a diagnosis, but whether the system can prove which evidence and permissions led to that diagnosis. Bind approval to exact action, parameters and expiry.
 
-## Original workflow diagram
+## Workflow diagram
 
 ```mermaid
 flowchart LR

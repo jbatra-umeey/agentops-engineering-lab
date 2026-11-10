@@ -8,7 +8,7 @@ Explain the concept, implement its control boundary, identify its failure mode, 
 
 Retries and fallbacks improve resilience when failure modes are classified. In the reference incident-response workflow, the operational question is not only whether the agent can produce a diagnosis, but whether the system can prove which evidence and permissions led to that diagnosis. Use exponential backoff with jitter for transient errors.
 
-## Original workflow diagram
+## Workflow diagram
 
 ```mermaid
 flowchart LR

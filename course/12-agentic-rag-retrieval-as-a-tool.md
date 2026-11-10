@@ -8,7 +8,7 @@ Explain the concept, implement its control boundary, identify its failure mode, 
 
 Agentic RAG invokes retrieval when evidence is needed. In the reference incident-response workflow, the operational question is not only whether the agent can produce a diagnosis, but whether the system can prove which evidence and permissions led to that diagnosis. Enforce document ACLs and attach source provenance.
 
-## Original workflow diagram
+## Workflow diagram
 
 ```mermaid
 flowchart LR

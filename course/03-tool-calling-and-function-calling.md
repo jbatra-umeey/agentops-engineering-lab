@@ -8,7 +8,7 @@ Explain the concept, implement its control boundary, identify its failure mode, 
 
 Function calling produces structured requests; a trusted runtime performs the call. In the reference incident-response workflow, the operational question is not only whether the agent can produce a diagnosis, but whether the system can prove which evidence and permissions led to that diagnosis. Separate model intent from executor authorization.
 
-## Original workflow diagram
+## Workflow diagram
 
 ```mermaid
 flowchart LR

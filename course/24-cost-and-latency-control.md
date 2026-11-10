@@ -8,7 +8,7 @@ Explain the concept, implement its control boundary, identify its failure mode, 
 
 Latency and spend are first-class product budgets. In the reference incident-response workflow, the operational question is not only whether the agent can produce a diagnosis, but whether the system can prove which evidence and permissions led to that diagnosis. Measure p50/p95, cache safe results, route simple work to cheaper models.
 
-## Original workflow diagram
+## Workflow diagram
 
 ```mermaid
 flowchart LR

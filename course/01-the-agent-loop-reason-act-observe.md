@@ -8,7 +8,7 @@ Explain the concept, implement its control boundary, identify its failure mode, 
 
 An agent repeatedly chooses an action, observes its result, and updates state until termination. In the reference incident-response workflow, the operational question is not only whether the agent can produce a diagnosis, but whether the system can prove which evidence and permissions led to that diagnosis. The model may choose a tool; the orchestrator must enforce limits.
 
-## Original workflow diagram
+## Workflow diagram
 
 ```mermaid
 flowchart LR

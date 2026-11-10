@@ -8,7 +8,7 @@ Explain the concept, implement its control boundary, identify its failure mode, 
 
 ReAct interleaves decisions and tool observations; do not expose private chain-of-thought. In the reference incident-response workflow, the operational question is not only whether the agent can produce a diagnosis, but whether the system can prove which evidence and permissions led to that diagnosis. Represent each action and observation as explicit auditable events.
 
-## Original workflow diagram
+## Workflow diagram
 
 ```mermaid
 flowchart LR

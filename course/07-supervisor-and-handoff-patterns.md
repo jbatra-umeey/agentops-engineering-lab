@@ -8,7 +8,7 @@ Explain the concept, implement its control boundary, identify its failure mode, 
 
 A supervisor routes tasks and controls handoffs. In the reference incident-response workflow, the operational question is not only whether the agent can produce a diagnosis, but whether the system can prove which evidence and permissions led to that diagnosis. Require explicit routing outcomes and escalation conditions.
 
-## Original workflow diagram
+## Workflow diagram
 
 ```mermaid
 flowchart LR
