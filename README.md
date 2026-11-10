@@ -1,6 +1,6 @@
 # AgentOps Engineering Lab
 
-**An original, executable FDE course companion: 25 concepts, 25 labs, one coherent incident-response domain.**
+**An executable FDE course companion: 25 concepts, 25 labs, one coherent incident-response domain.**
 
 This is an educational reference implementation, **not a certified production service**. It runs without API keys using deterministic simulated telemetry; a live model adapter is an extension exercise. It intentionally does not execute remediation actions on infrastructure.
 
@@ -8,8 +8,8 @@ This is an educational reference implementation, **not a certified production se
 
 - FastAPI API with incident investigation, checkpoint inspection, human approval and audit events
 - Bounded plan/act/observe loop, deterministic specialist routing, typed tool registry, idempotency keys, injection checks, retry budgets, state transitions, SQLite checkpointing, basic evaluation
-- Tests, Dockerfile, Docker Compose, GitHub Actions CI, and original Mermaid architecture and sequence diagrams
-- 25 individually authored learning chapters with design trade-offs, workflows, failure modes, exercises, and review questions
+- Tests, Dockerfile, Docker Compose, GitHub Actions CI, and Mermaid architecture and sequence diagrams
+- 25 learning chapters with design trade-offs, workflows, failure modes, exercises, and review questions
 
 ## Quick start
 
@@ -41,7 +41,3 @@ See [the 25-module index](course/INDEX.md), [architecture](docs/architecture.md)
 ## Honest implementation boundary
 
 The demo implements a deterministic agent workflow, not autonomous LLM reasoning, a real MCP transport, vector retrieval, real external telemetry, or hardened multi-tenant security. The course teaches those patterns and provides implementation exercises. Do not deploy this reference API publicly without authentication, authorization, secret management, tenant isolation, and durable queue infrastructure.
-
-## Originality
-
-All instructional text, scenarios, and Mermaid diagrams in this repository were created for this course. The 25-item syllabus is based on commonly used industry terminology; the explanation, design, exercises, and artifacts are original.
