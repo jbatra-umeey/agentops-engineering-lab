@@ -1,0 +1,5 @@
+{
+  "incident_id": "INC-1042",
+  "service": "checkout-api",
+  "symptom": "Elevated 5xx error rate"
+}
