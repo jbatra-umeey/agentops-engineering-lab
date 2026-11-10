@@ -1,4 +1,4 @@
-# Original reference architecture
+# Reference architecture
 
 ```mermaid
 flowchart TD

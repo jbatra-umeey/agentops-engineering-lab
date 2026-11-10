@@ -1,6 +1,6 @@
 # Illustrated end-to-end workflows
 
-These diagrams are original instructional designs. They depict a target architecture; the current runnable baseline is deterministic and does not connect to live telemetry or execute remediation.
+These diagrams depict a target architecture; the current runnable baseline is deterministic and does not connect to live telemetry or execute remediation.
 
 ## Workflow A — Diagnose a failed checkout deployment
 
